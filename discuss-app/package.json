@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/core": "0.34.1",
+    "@auth/prisma-adapter": "2.4.1",
     "@nextui-org/react": "^2.4.2",
     "@prisma/client": "^5.17.0",
     "framer-motion": "^11.3.6",
     "next": "14.2.5",
+    "next-auth": "4.24.7",
     "prisma": "^5.17.0",
     "react": "^18",
     "react-dom": "^18"
