@@ -1,3 +1,5 @@
+'use client';
+
 import { NavbarItem, Button, Avatar, Popover, PopoverTrigger, PopoverContent } from "@nextui-org/react";
 import * as actions from '@/actions'
 import { useSession } from "next-auth/react";
