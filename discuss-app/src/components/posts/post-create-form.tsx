@@ -5,7 +5,7 @@ import { Button, Input, Textarea, Popover, PopoverContent, PopoverTrigger } from
 import * as actions from '@/actions'
 import FormButton from "@/components/common/form-button";
 
-const postCreateForm = () => {
+const PostCreateForm = () => {
     const [formState, action] = useFormState(
         actions.createPost, 
         {
@@ -55,4 +55,4 @@ const postCreateForm = () => {
   )
 }
 
-export default postCreateForm
+export default PostCreateForm;
